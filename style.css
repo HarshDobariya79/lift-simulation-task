@@ -22,7 +22,7 @@ input[type="number"] {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #026C7C;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -32,7 +32,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: #015b69;
 }
 
 /* floor button styles */

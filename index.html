@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lift Simulation Task</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div id="main-container">
-        <form name="initialize">
-            <label for="floors">Enter Number of Floors:</label>
-            <input type="number" id="floors" name="floors" placeholder="range: 1-15" min="1" max="15">
+      <form name="initialize">
+        <label for="floors">Enter Number of Floors:</label>
+        <input
+          type="number"
+          id="floors"
+          name="floors"
+          placeholder="range: 1-15"
+          min="1"
+          max="15"
+          required
+        />
 
-            <label for="lifts">Enter Number of Lifts:</label>
-            <input type="number" id="lifts" name="lifts" placeholder="range: 1-15" min="1" max="15">
+        <label for="lifts">Enter Number of Lifts:</label>
+        <input
+          type="number"
+          id="lifts"
+          name="lifts"
+          placeholder="range: 1-15"
+          min="1"
+          max="15"
+          required
+        />
 
-            <input type="submit" value="Submit" onclick="initializeFloors()">
-        </form>
+        <input type="submit" value="Submit" onclick="startSimulation()" />
+      </form>
     </div>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
