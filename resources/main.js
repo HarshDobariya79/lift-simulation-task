@@ -36,7 +36,7 @@ const generateUI = () => {
 
     const upArrowIcon = document.createElement("img");
     upArrowIcon.style.userSelect = "none";
-    upArrowIcon.src = "up-arrow.png";
+    upArrowIcon.src = "resources/img/up-arrow.png";
     upArrowIcon.style.width = "12px";
     upArrowIcon.style.padding = "3px";
     upArrowButton.appendChild(upArrowIcon);
@@ -49,7 +49,7 @@ const generateUI = () => {
 
     const downArrowIcon = document.createElement("img");
     downArrowIcon.style.userSelect = "none";
-    downArrowIcon.src = "down-arrow.png";
+    downArrowIcon.src = "resources/img/down-arrow.png";
     downArrowIcon.style.width = "12px";
     downArrowIcon.style.padding = "3px";
     downArrowButton.appendChild(downArrowIcon);
