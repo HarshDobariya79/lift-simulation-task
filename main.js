@@ -36,7 +36,6 @@ const generateUI = () => {
 
     const upArrowIcon = document.createElement("img");
     upArrowIcon.style.userSelect = "none";
-    upArrowIcon.style.moz;
     upArrowIcon.src = "up-arrow.png";
     upArrowIcon.style.width = "12px";
     upArrowIcon.style.padding = "3px";
