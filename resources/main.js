@@ -163,7 +163,7 @@ const startSimulation = () => {
         const targetFloor = liftQueue.shift();
 
         let liftElement;
-        let liftDistance = lifts.length + 1;
+        let liftDistance = Infinity;
         for (let i = 0; i < availableLifts.length; i++) {
           if (
             Math.abs(
